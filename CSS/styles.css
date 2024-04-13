@@ -20,11 +20,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
+    box-shadow: 5px 5px 10px #c4d0de, -5px -5px 10px #c4d0de;
 }
 
 .QR-container img {
     width: 288px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 16px;
 }
 
@@ -34,16 +35,17 @@ body {
     padding: 0 6px;
 }
 
-.QR-container h2 {
+.QR-container h1 {
     font-weight: 700;
+    font-size: 22px;
     color: #1F314F;
     margin-bottom: 16px;
-    letter-spacing: -0.8px;
 }
 
 .QR-container p {
     font-size: 15px;
     font-weight: 400;
     color: #7D889E;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.19px;
+    padding: 0 10px;
 }
