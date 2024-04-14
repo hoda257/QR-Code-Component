@@ -5,20 +5,18 @@
 
 body {
     background-color: #D5E1EF;
-    max-height: 100vh;
     font-family: "Outfit", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .QR-container {
     background-color: #FFFFFF;
-    margin: auto;
     text-align: center;
     width: 320px;
     height: 497px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 20px;
     box-shadow: 5px 5px 10px #c4d0de, -5px -5px 10px #c4d0de;
 }
